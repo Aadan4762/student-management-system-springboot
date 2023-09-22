@@ -1,0 +1,17 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: student-management-system-springboot
+  datasource:
+    url: jdbc:postgresql://localhost:5432/student
+
+    username: postgres
+    password: Password
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+
