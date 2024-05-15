@@ -5,7 +5,7 @@ spring:
   application:
     name: student-management-system-springboot
   datasource:
-    url: jdbc:postgresql://localhost:5432/student
+    url: jdbc:postgresql://localhost:5432/students
 
     username: postgres
     password: Password
